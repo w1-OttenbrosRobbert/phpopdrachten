@@ -26,13 +26,12 @@
     <?php
     $trafficLightColor = "groen"; // colors: groen, rood en orange
     $ambulanceComing = false; //options: true or false
-    $driveOn = true;
 
     if($trafficLightColor == "groen" && $ambulanceComing == false)
     {
         $driveOn = true;
     }
-    else if($trafficLightColor == "oranje" || $trafficLightColor == "rood" || $ambulanceComing == true)
+    else
     {
         $driveOn = false;
     }
@@ -47,8 +46,9 @@
     ?>
     <h1>Taak 3</h1>
     <?php
-    $countryName = "Belgie" || "Bulgarije" || "Cyprus" || "Nederland" || "Zweden"; // Woonplaats
+
     $currentAge = 17; // own age
+    $countryName = "Nederland";
 
     if($countryName == "België")
     {
@@ -58,7 +58,7 @@
         }
         else if($currentAge >= 18)
         {
-            echo("Je mag hier alle alchol drinken");
+            echo("Je mag hier alle alcohol drinken");
         }
     }
     else if(($countryName == "Bulgarije" || $countryName == "Nederland") && $currentAge == 18)
