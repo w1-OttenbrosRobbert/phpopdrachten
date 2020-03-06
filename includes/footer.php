@@ -1,9 +1,9 @@
 <?php
 /**
  * User: Robbert
- * Date: 6-3-2020
+ * Date: 2-3-2020
  * Time: 12:45
- * File: Opdracht 4.1.php
+ * File: Footer.php
  */
 ?>
 <div class="box">
@@ -13,20 +13,16 @@
     $jaar = date("Y");
     $moment ='';
 
-    if($uur >= 0 && $uur <= 5)
-    {
+    if($uur >= 0 && $uur <= 5){
         $moment = 'Goedennacht';
     }
-    else if ($uur >= 5 && $uur <= 12)
-    {
+    else if ($uur >= 5 && $uur <= 12){
         $moment = 'Goedenochtend';
     }
-    else if($uur >= 12 && $uur <= 17)
-    {
+    else if($uur >= 12 && $uur <= 17){
         $moment = 'Goedenmiddag';
     }
-    else if ($uur >= 17 && $uur <= 0)
-    {
+    else if ($uur >= 17 && $uur <= 0){
         $moment = 'Goedenavond';
     }
 

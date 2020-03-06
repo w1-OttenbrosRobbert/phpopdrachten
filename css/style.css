@@ -18,6 +18,10 @@ h2
 {
     color: darkred;
 }
+h3
+{
+    text-align: center;
+}
 .box {
     background: #fff;
     border-radius: 10px;

@@ -24,7 +24,7 @@
 <h2>Uitwerking van <a href="../index.php"> PHP-opdrachten</a></h2>
 <div class="box">
     <?php
-    $soortTochtocht = "<u>Elfstedentocht</u>";
+    $soortTocht = "<u>Elfstedentocht</u>";
     $tocht_fries = "<u>Alvestêdetocht</u>";
     $km = "<u>200</u>";
     $tocht = "<u>schaatstocht</u>";
@@ -46,7 +46,7 @@
 
     $verhaal2 = "De " . $soortTocht .  " (Fries: " . $tocht_fries . ") is een " . $km . " kilometer lange " . $hoeVaak . " over " . $type . " die wordt
                 georganiseerd door de " . $vereniging .". " . $plaats . ",  de hoofdstad van " . $provincie . ",  is start- en
-                aankomstplaats. De " . $soorttocht . " is inmiddels " . $hoeVaak . " maal
+                aankomstplaats. De " . $soortTocht . " is inmiddels " . $hoeVaak . " maal
                 verreden en werd voor het eerst in " . $jaar . " gereden en wordt
                 maximaal 1 keer per winter gehouden.";
     echo ("<h1>Taak 2</h1>");
