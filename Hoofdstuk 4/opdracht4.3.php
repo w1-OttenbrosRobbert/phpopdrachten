@@ -7,10 +7,11 @@
  */
 ?>
 <?php
-include ".././includes/header.php";
+include "../includes/header.php";
 ?>
 
 <?php
+// Includen extern bestand
 include "Opdracht 4.3/script4.3.php";
 
 // Alle variabelen tonen

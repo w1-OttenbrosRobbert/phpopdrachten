@@ -8,8 +8,6 @@
 ?>
 
 <?php
-// Includen extern bestand
-include "../../includes/header.php"
 ?>
 
 <?php
@@ -70,6 +68,7 @@ while($year >= 2003)
 // Maken 3e for loop
 $task7 = '';
 $years = date('Y');
+// Switch break loop
 for($ages = 17; $ages > 0; $ages--)
 {
 
@@ -104,8 +103,3 @@ for($ages = 17; $ages > 0; $ages--)
 }
 
 ?>
-
-
-<?php
-include "../../includes/footer.php"
-?><?php
